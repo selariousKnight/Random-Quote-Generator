@@ -11,7 +11,7 @@ function generateQuote(){
     }).then((data)=>{
        let quote = data[ Math.floor((Math.random()*1500))]
         quoteEle.textContent = quote.text
-        authorEle.textContent = quote.author ? quote.author : "Unknown"
+        authorEle.textContent = quote.author ? `Author : ${quote.author}` : `Author : Unknown`
         
 
     })
