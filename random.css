@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    background-color: #252525;
+    color: white;
+    height: 100vh;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{
+    background-color: grey;
+    width: 60%;
+    text-align: center;
+    border-radius: 10px;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-bottom: 20px;
+    color:cyan;
+    font-family: sans-serif;
+}
+.quote{
+    margin-bottom:10px ;
+}
+.button{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    border-radius: 50%;
+    border-style: none;
+    margin: 20px;
+}
